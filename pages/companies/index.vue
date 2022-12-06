@@ -12,9 +12,12 @@
           <option value="" selected>Company Name</option>
         </select>
       </div>
-      <a href="companies/1" class="w-full btn btn-primary mt-[14px]">
+      <NuxtLink
+        :to="{ name: 'companies/1' }"
+        class="w-full btn btn-primary mt-[14px]"
+      >
         Continue
-      </a>
+      </NuxtLink>
     </form>
   </section>
 </template>
